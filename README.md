@@ -1,5 +1,7 @@
 # Online Retail II — Sales & Customer Analysis
 
+🌐 **Languages:** English | [Português (Brasil)](README.pt-BR.md)
+
 ## Project Overview
 
 This project presents an exploratory data analysis of the **Online Retail II** dataset, covering transactions from December 2009 to December 2011.
