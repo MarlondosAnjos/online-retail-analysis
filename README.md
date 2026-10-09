@@ -52,6 +52,20 @@ Purchasing frequency and unit volume provide different perspectives on customer 
 
 This highlights the importance of high-value customers while showing that their influence varies considerably across products.
 
+## Data Visualizations
+
+### Top 10 Products by Net Sales
+
+![Top 10 Products by Net Sales](images/top_10_products_net_sales.png)
+
+**Business insight:** REGENCY CAKESTAND 3 TIER generated the highest Net Sales, at approximately £314,045. This highlights the importance of evaluating product performance by revenue, not only by units sold.
+
+### Revenue Concentration — Top 10 Customers
+
+![Revenue Concentration — Top 10 Customers](images/top_10_customers_revenue_concentration.png)
+
+**Business insight:** The Top 10 highest-value customers contributed £2.66 million, representing 13.97% of total Net Sales. The remaining 86.03% came from other transactions, including those without a Customer ID. This highlights the importance of high-value customers while providing context for their contribution to overall revenue.
+
 ## Business Recommendations
 
 - Strengthen retention initiatives for high-value customers.
@@ -76,12 +90,14 @@ online-retail-analysis/
 │   └── raw/
 │       └── online_retail_II.xlsx
 ├── notebooks/
-│   └── 01_data_understanding.ipynb
+│   └── online_retail_analysis.ipynb
 ├── README.md
 └── .gitignore
 ```
 
 ## How to Run the Project
+
+**Python version:** Developed and tested with Python 3.14.3.
 
 1. Clone or download this repository.
 2. Install Python and the required libraries:
@@ -90,7 +106,7 @@ online-retail-analysis/
    pip install pandas matplotlib openpyxl notebook
    ```
 
-3. Open `notebooks/01_data_understanding.ipynb` in VS Code or Jupyter Notebook.
+3. Open `notebooks/online_retail_analysis.ipynb` in VS Code or Jupyter Notebook.
 4. Run the notebook cells in order.
 
 The dataset is stored in `data/raw/`, and the notebook accesses it through a relative file path.

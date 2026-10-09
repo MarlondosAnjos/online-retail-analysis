@@ -52,6 +52,20 @@ A frequência de compra e o volume de unidades adquiridas oferecem perspectivas 
 
 Isso evidencia a importância dos clientes de maior valor e demonstra que sua influência varia consideravelmente entre os produtos.
 
+## Visualizações dos Dados
+
+### Top 10 Products by Net Sales (10 Produtos com Maiores Vendas Líquidas)
+
+![10 Produtos com Maiores Vendas Líquidas](images/top_10_products_net_sales.png)
+
+**Interpretação de negócio:** O produto REGENCY CAKESTAND 3 TIER apresentou as maiores Net Sales (Vendas Líquidas), com aproximadamente £314.045. Esse resultado demonstra a importância de avaliar o desempenho dos produtos pela receita gerada, e não apenas pela quantidade de unidades vendidas.
+
+### Revenue Concentration — Top 10 Customers (Concentração de Receita — 10 Principais Clientes)
+
+![Concentração de Receita — 10 Principais Clientes](images/top_10_customers_revenue_concentration.png)
+
+**Interpretação de negócio:** Os dez clientes de maior valor contribuíram com aproximadamente £2,66 milhões, representando 13,97% das Net Sales (Vendas Líquidas) totais. Os 86,03% restantes vieram das demais transações, incluindo aquelas sem Customer ID (Identificador do Cliente). Esse resultado destaca a importância dos clientes de alto valor e contextualiza sua participação na receita total.
+
 ## Recomendações de Negócio
 
 - Fortalecer iniciativas de retenção dos clientes de maior valor.
@@ -76,13 +90,15 @@ online-retail-analysis/
 │   └── raw/
 │       └── online_retail_II.xlsx
 ├── notebooks/
-│   └── 01_data_understanding.ipynb
+│   └── online_retail_analysis.ipynb
 ├── README.md
 ├── README.pt-BR.md
 └── .gitignore
 ```
 
 ## Como Executar o Projeto
+
+**Versão do Python:** Projeto desenvolvido e testado com Python 3.14.3.
 
 1. Clone ou baixe este repositório.
 2. Instale o Python e as bibliotecas necessárias:
@@ -91,7 +107,7 @@ online-retail-analysis/
    pip install pandas matplotlib openpyxl notebook
    ```
 
-3. Abra o arquivo `notebooks/01_data_understanding.ipynb` no VS Code ou no Jupyter Notebook.
+3. Abra o arquivo `notebooks/online_retail_analysis.ipynb` no VS Code ou no Jupyter Notebook.
 4. Execute as células do notebook na ordem apresentada.
 
 O conjunto de dados está armazenado em `data/raw/`, e o notebook utiliza um caminho relativo para acessá-lo.
