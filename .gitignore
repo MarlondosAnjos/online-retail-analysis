@@ -1,0 +1,12 @@
+# Python virtual environment
+.venv/
+
+# Personal study notes
+VARIABLES.md
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
